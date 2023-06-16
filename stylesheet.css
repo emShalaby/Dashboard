@@ -7,7 +7,16 @@ body,html{
     height: 100%;
     width: 100%;
 }
-
+input[type=search]{
+    border-radius: 3em;
+    width: 40rem;
+    height: 2em;
+    padding: .5em;
+    background-color: wheat;
+}
+img{
+    height: fit-content;
+}
 
 .main-container{
     height: 100%;
@@ -38,6 +47,14 @@ body,html{
 }
 .header{
     border: brown solid 2px;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+.search{
+    display: flex;
+    gap: .5em;
 }
 
 .main{
