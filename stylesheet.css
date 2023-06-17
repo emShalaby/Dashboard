@@ -3,10 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body,html{
-    height: 100%;
-    width: 100%;
-}
+
 input[type=search]{
     border-radius: 3em;
     height: 2em;
@@ -22,8 +19,7 @@ p{
     font-size: 1.5em;
 }
 .main-container{
-    height: 100%;
-    width: 100%;
+
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
@@ -50,6 +46,7 @@ p{
 }
 .header{
     border: brown solid 2px;
+    background-color: turquoise;
     padding: 1em;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -132,6 +129,6 @@ padding: 1rem;
 .functions-bar>button{
     flex: 1 1 auto;
     border-radius: 2em;
-    height: 1.5rem;
+    height: 2rem;
    
 }
