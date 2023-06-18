@@ -36,6 +36,10 @@ p{
     font-size: 1.3em;
     color: #D1D5DB;
 }
+button:hover{
+    cursor: pointer;
+}
+
 .main-container{
 
     display: grid;
@@ -189,7 +193,8 @@ padding: 1rem;
     flex: 1 1 auto;
     border-radius: 2em;
     height: 2rem;
-   
+    background-color: lightseagreen;
+    color: white;
 }
 .announcements,
 .trending{
