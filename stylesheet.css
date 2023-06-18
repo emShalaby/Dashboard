@@ -99,6 +99,9 @@ button:hover{
     align-items: center;
     gap: .5em;
 }
+.calender>h4{
+    color: lightseagreen;
+}
 
 .main{
     background: #1f2937;
